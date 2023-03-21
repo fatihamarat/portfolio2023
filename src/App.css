@@ -1,0 +1,175 @@
+/* Genel stiller */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Navbar stilleri */
+  nav {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-right: 10px;
+  }
+  
+  nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
+  nav ul li a:hover {
+    background-color: #fff;
+    color: #333;
+  }
+  
+  /* Header stilleri */
+  header {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Hakkımda bölümü stilleri */
+  section#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 0;
+  }
+  
+  .photo {
+    flex: 1;
+    max-width: 400px;
+  }
+  
+  .photo img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .about {
+    flex: 2;
+    max-width: 600px;
+    margin-left: 50px;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Eğitimler bölümü stilleri */
+  section#education {
+    margin: 50px 0;
+  }
+  
+  #education h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #education ul {
+    list-style: none;
+  }
+  
+  #education li {
+    margin-bottom: 10px;
+  }
+  section#certificates {
+    margin: 50px 0;
+  }
+  
+  #certificates h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #certificates ul {
+    list-style: none;
+  }
+  
+  #certificates li {
+    margin-bottom: 10px;
+  }
+  /* Projeler bölümü stilleri */
+  section#projects {
+    margin: 50px 0;
+  }
+  
+  #projects h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project {
+    flex-basis: 30%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* İletişim bölümü stilleri */
+  section#contact {
+    margin: 50px 0;
+  }
+  
+  #contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact ul {
+    list-style: none;
+  }
+  
+  #contact li {
+    margin-bottom: 10px;
+  }
+  
