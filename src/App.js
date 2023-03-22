@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+// import "./style.css";
 
 function Portfolio() {
   return (
@@ -30,7 +31,7 @@ function Portfolio() {
 
       <section id="about">
         <div className="photo">
-          <img src="./fatih2.jpeg" alt="Benim fotoğrafım" />
+          <img src="./fatih.jpeg" alt="Benim fotoğrafım" />
         </div>
         <div className="about">
           <h2>Hakkımda</h2>

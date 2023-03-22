@@ -22,7 +22,7 @@
     background-color: #333;
     color: #fff;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 10px;
   }
@@ -55,7 +55,7 @@
   /* Header stilleri */
   header {
     text-align: center;
-    margin: 50px 0;
+    margin: 100px 0 50px;
   }
   
   header h1 {
@@ -70,6 +70,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 50px 0;
+    margin-top: 20px;
   }
   
   .photo {
@@ -108,7 +109,7 @@
   }
   
   #education li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   section#certificates {
     margin: 50px 0;
@@ -148,11 +149,12 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
   }
   
   .project h3 {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 0;
   }
   
   /* İletişim bölümü stilleri */
